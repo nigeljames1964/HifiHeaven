@@ -131,4 +131,8 @@
             .naim-logo {
                 max-width: 50%;
             }
+            .senn-logo {
+                width: 300%;
+                margin: auto auto;
+            }
         }
