@@ -1,0 +1,134 @@
+        * {
+            margin: 0;
+            padding: 3px;
+            box-sizing: border-box;
+        }
+        
+        img {
+            margin: 0 10px;
+            width: 90%;
+        }
+        
+        #footer {
+            width: 100%;
+        }
+        
+        #head-section {
+            width: 100%;
+        }
+        
+        #audiogd-section,
+        #littledot-section,
+        #naim-section,
+        #headphone-section,
+        #roksan-section,
+        #schiit-section {
+            width: 100%;
+            background-color: grey;
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        .item-description img {
+            margin-bottom: 15px;
+        }
+        
+        .info ul li {
+            color: whitesmoke;
+        }
+        
+        .info ul li:last-of-type {
+            margin-top: 10px;
+        }
+        
+        .highlight {
+            color: red;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            margin-bottom: 20px;
+        }
+        
+        .company-header {
+            background-color: darkgray;
+            padding: 5px;
+            margin-bottom: 15px;
+        }
+        
+        .company-info {
+            color: white;
+            font-size: 0.8rem;
+            padding: 10px;
+        }
+        
+        #menu {
+            margin-bottom: 20px;
+        }
+        
+        #menu a {
+            margin-right: 20px;
+            text-decoration: none;
+        }
+        
+        #menu a:hover {
+            border-top: 2px solid red;
+            translate: transform()
+        }
+        
+        .naim-logo,
+        .roksan-logo,
+        .schiit-logo,
+        .audiogd-logo {
+            margin-bottom: 15px;
+            max-width: 100%;
+        }
+        
+        .roksan-logo {
+            width: 20%;
+            height: 20%;
+        }
+        
+        .buybtn {
+            margin-bottom: 20px;
+            width: 70px;
+        }
+        
+        .phone-image {
+            max-width: 100%
+        }
+        
+        .phone-description {
+            padding: 5px;
+        }
+        
+        hr {
+            color: white;
+            background-color: white;
+            height: 3px;
+            border: none;
+            width: 70%;
+            margin: auto;
+            margin-bottom: 15px;
+        }
+        /*************************************Large*************/
+        
+        @media screen and (min-width: 768px) {
+            .company-info {
+                margin-top: 30px;
+            }
+            hr {
+                display: none;
+            }
+            .phone-description {
+                padding-top: 80px;
+            }
+            .phone-title {
+                margin-top: 35px;
+                margin-bottom: 5px;
+            }
+            .audiogd-logo,
+            .naim-logo {
+                max-width: 50%;
+            }
+        }
